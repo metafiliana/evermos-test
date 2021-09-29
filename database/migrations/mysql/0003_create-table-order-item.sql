@@ -1,0 +1,7 @@
+CREATE TABLE order_items (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    user_id INT(30) NOT NULL,
+    item_id INT(30) NOT NULL,
+    order_id INT(30) DEFAULT NULL,
+    qty BIGINT(50) NOT NULL DEFAULT 0
+)

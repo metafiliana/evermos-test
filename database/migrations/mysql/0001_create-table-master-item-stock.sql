@@ -1,0 +1,5 @@
+CREATE TABLE master_item_stocks (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    item_id VARCHAR(30) NOT NULL,
+    stock_qty BIGINT(30) NOT NULL DEFAULT 0
+)
