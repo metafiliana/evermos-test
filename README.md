@@ -12,9 +12,6 @@ Maka saat service melakukan update stok untuk mengurangi stok barang, jumlah yan
 Sebaiknya ada mekanisme validasi dan reservasi stok, dengan membuat sebuah datasource untuk menyimpan data stok bayangan yang dimana datasource tersebut mempunyai mekanisme read/write yang cepat secara performa untuk menghindari race condition, salah-satunya adalah cache. 
 
 Proses yang dilakukan, dapat dilihat pada diagram-diagram berikut:
-### add to cart
-![Add to cart](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKf9B4bCIYnELSYjB2xCYKz9uk8ABKujKj3LjLFGS4n9KIZ9LqW6gjNaGk61v15Q75BpKe260G00)
-
 ### checkout item
 ![Checkout item](http://www.plantuml.com/plantuml/png/LOz13eCW44NtdE8lzGhQf1wWIoz0O1IYGCkCRRnz9zekt7t2--zd1XPRPKkhEOBfN22tb4tWz8aebBWttKm2LxOigCHKt-JFBqor94MrzQEIPQ4Abk8Ml6I_4752Ssfk5_3UGW9bD3jnQu3EUlzVEePE0RmLYq-KW75yz8PM9ZIvI8XvrXvKzZIKVPpC4GVDUjiN)
 
